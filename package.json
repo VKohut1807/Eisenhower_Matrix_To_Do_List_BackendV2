@@ -1,0 +1,21 @@
+{
+  "name": "notat",
+  "version": "2.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "cross-env NODE_ICU_DATA=node_modules/full-icu react-scripts test"
+  },
+  "author": "Vasyl Kohut",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.2",
+    "full-icu": "^1.4.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0"
+  }
+}
