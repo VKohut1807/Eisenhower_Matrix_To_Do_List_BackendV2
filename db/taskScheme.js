@@ -28,9 +28,9 @@ const TaskScheme = new Schema({
     date: { type: Date, },
     avatar: {
         name: { type: String, },
-        type: { type: String, },
         size: { type: Number, },
-        url: { type: String, default: "" },
+        type: { type: String, },
+        url: { type: String, },
     }
 }, { versionKey: false })
 
